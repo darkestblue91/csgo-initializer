@@ -1,0 +1,18 @@
+{
+  "name": "csgo-initializer",
+  "version": "1.0.0",
+  "description": "Prepare Steam accounts to be used automatically.",
+  "main": "index.js",
+  "author": "Josue Diaz",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "steam-user": "^3.23.2"
+  }
+}
