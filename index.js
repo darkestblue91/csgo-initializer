@@ -41,7 +41,6 @@ prompt.get(accountSchema, (err, accountResult) => {
 						console.log('Two factor authentification added to account.');
 						console.log('NOTE: Add the following information as environment variables and save then in a safe place.');
 						console.log('DANGER: If you do not save this info you cannot run the bot well and you fucked up the bot account for at least 7-15 days :D.');
-						console.log('Bot number: ', accountResult.bot);
 						console.log('Shared secret: ', response.shared_secret);
 						console.log('Identity secret: ', response.identity_secret);
 						console.log('Revocation code: ', response.revocation_code);
